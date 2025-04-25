@@ -13,6 +13,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  overflow-x: hidden;
 }
 
 .nomre {
@@ -168,6 +169,7 @@
 
 .haqqimizda-content {
   width: 48%;
+  overflow: hidden;
 }
 
 .haqqimizda-subtitle {
@@ -199,6 +201,10 @@
   padding: 12px 24px;
   border-radius: 70px;
   font-size: 1.1rem;
+  position: absolute;
+  margin-top: 35px;
+  z-index: 5;
+  
 }
 
 .haqqimizda-image {
@@ -263,8 +269,8 @@
 #v {
   width: 224px;
   height: 294px;
-  margin-top: 250px;
-  margin-left: -195px;
+  margin-top: 290px;
+  margin-left: -211px;
 }
 
 .form-section {
@@ -314,7 +320,7 @@
 }
 
 #gonderBtn {
-  background-color: #456D60;
+  background-color: #456d60;
   color: white;
   border: none;
   border-radius: 70px;
@@ -331,7 +337,7 @@
 }
 
 .footer {
-  background-color: #456D60;
+  background-color: #456d60;
   color: white;
   padding: 40px 7%;
 }
@@ -831,7 +837,6 @@
   width: 1200px;
   margin: 100px auto;
   font-family: Arial, sans-serif;
-
 }
 
 .ekinlik_bolmesi {
@@ -982,18 +987,20 @@
   justify-content: space-between;
   font-size: 14px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-left:150px;
+  margin-left: 150px;
   font-family: Nunito;
   width: 1198px;
   height: 294px;
 }
 
-.elaqe-basliq, .bizi-basliq {
+.elaqe-basliq,
+.bizi-basliq {
   color: #78b043;
-  font-size:32px;
+  font-size: 32px;
 }
 
-.sol-altliq, .sag-altliq {
+.sol-altliq,
+.sag-altliq {
   max-width: 45%;
 }
 
@@ -1001,16 +1008,14 @@
   font-size: 16px;
   color: #000;
   margin: 49px 0;
-
 }
 
 .ikona {
   margin-top: 41px;
   font-size: 16px;
-  
 }
 .footerv {
-  background-color: #456D60;
+  background-color: #456d60;
   color: white;
   padding: 40px 7%;
   margin-top: 50px;
@@ -1019,11 +1024,9 @@
   font-size: 22px;
   margin-top: 70px;
   margin-right: 300px;
-
 }
 .balaca-metind {
   font-size: 16px;
   color: #000;
   margin: -25px 0 20px;
-
 }
